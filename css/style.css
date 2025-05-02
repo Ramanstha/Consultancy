@@ -547,7 +547,7 @@
     margin-right: 30px;
     text-align: center;
     border-radius: 10px;
-    background: var(--bs-primary);
+    background: #f68712;
     opacity: 0;
     transition: 0.5s;
 }
@@ -559,6 +559,10 @@
 
 .service .service-item .service-inner .service-title .service-content a h4 {
     border-bottom: 1px solid rgba(256, 256, 256, .1);
+}
+
+.service-title-name .btn{
+color: var(--bs-dark) !important;
 }
 
 .service .service-item .service-inner .service-title .service-title-name {
@@ -636,6 +640,12 @@
     justify-content: center;
     text-align: center;
     background: var(--bs-light);
+    transition: 0.5s;
+}
+
+.feature-icon i {
+    font-size: 50px;
+    color: #f68712;
     transition: 0.5s;
 }
 
@@ -744,6 +754,10 @@
     background: var(--bs-light);
 }
 
+.testimonial-content .fas{
+    color: #f68712;
+}
+
 .testimonial .owl-carousel.testimonial-carousel .testimonial-item .testimonial-content::after {
     position: absolute;
     content: "";
@@ -825,6 +839,7 @@
 }
 
 .training .training-item .training-content {
+    background-color: #f68712;
     position: absolute;
     width: 100%;
     bottom: -100%;
@@ -882,7 +897,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-primary);
+    background: rgb(3, 3, 87);
 }
 .footer .footer-item a {
     line-height: 30px;
@@ -905,7 +920,7 @@
 /*** copyright Start ***/
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-secondary) !important;
+    background: #f68712 !important;
 }
 /*** copyright end ***/
 
@@ -919,4 +934,10 @@
     font-size: 30px;
     background-color: rgba(var(--color-one-rgb), 0.07);
     box-shadow: none;
+}
+
+
+.btn {
+   color: var(--bs-white) !important;
+    background-color: #f68712;
 }
