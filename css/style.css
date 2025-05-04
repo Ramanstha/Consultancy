@@ -213,7 +213,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgb(209, 170, 86) !important;
+    color: #f68712 !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -926,16 +926,54 @@ color: var(--bs-dark) !important;
 
 
 
+.wptb-item--icon{
+    font-size: 26px;
+    color: #f68712;
+    width: 72px;
+    height: 72px;
+    /* font-size: 30px; */
+    background-color: rgba(var(--color-one-rgb), 0.07);
+    box-shadow: none;
+}
+
+.wptb-about-company-one--inner .wptb-icon-box1{
+     margin-bottom: 30px;
+}
 
 
-.wptb-about-company-one--inner .wptb-icon-box1 .wptb-item--icon {
+.wptb-about-company-one--inner .wptb-icon-box1 .wptb-item--title {
+    font-size: 25px;
+    line-height: 28px;
+    color: var(--color-dark-blue);
+}
+
+.wptb-icon-box1 .wptb-item--inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* .wptb-about-company-one--inner .wptb-icon-box1 .wptb-item--icon {
     width: 72px;
     height: 72px;
     font-size: 30px;
     background-color: rgba(var(--color-one-rgb), 0.07);
     box-shadow: none;
+} */
+
+/* .wptb-item--holder{
+    margin-left: 30px;
+} */
+.wptb-item--holder h5 {
+    font-size: 22px;
+    margin-bottom: 0px;
+    line-height: 28px;
 }
 
+.wptb-item--holder p {
+    margin-bottom: 15px;
+}
 
 .btn {
    color: var(--bs-white) !important;
