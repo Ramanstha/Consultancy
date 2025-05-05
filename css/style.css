@@ -436,6 +436,11 @@
 
     .carousel-header .carousel .carousel-indicators {
         padding: 0;
+        display: none;
+    }
+
+    .carousel-control-prev,.carousel-control-next {
+        display: none;
     }
 }
 /*** Carousel Hero Header End ***/
