@@ -992,8 +992,8 @@ color: var(--bs-dark) !important;
         max-height: 500px;
     }
 
-/*     .About {
-        margin-top: 140px !important;
+    .About {
+        margin-top: -100px !important;
     }
- */
+
 }
